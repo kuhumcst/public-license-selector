@@ -5,7 +5,7 @@ LicenseDefinitions =
   'cc-public-domain':
     name: 'Public Domain Mark (PD)'
     priority: 1
-    available: true
+    available: false
     url: 'http://creativecommons.org/publicdomain/mark/1.0/'
     description: "The work identified as being free of known restrictions under copyright law, including all related and neighboring rights."
     categories: ['public', 'data', 'software', 'public-domain']
@@ -104,7 +104,7 @@ LicenseDefinitions =
   'perl-artistic-1':
     name: 'Artistic License 1.0'
     priority: 7
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/Artistic-Perl-1.0'
     description: 'NOTE: This license has been superseded by the Artistic License, Version 2.0. This is a license for software packages with the intent of giving the original copyright holder some measure of control over his software while still remaining open source. It is flexible and allows you to distribute or sell modified versions as long as you fulfill one of various conditions. Look at section 4 in the full text for a better explanation.'
     categories: ['public', 'software', 'perl']
@@ -113,7 +113,7 @@ LicenseDefinitions =
   'perl-artistic-2':
     name: 'Artistic License 2.0'
     priority: 8
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/Artistic-2.0'
     description: 'This is a license for software packages with the intent of giving the original copyright holder some measure of control over his software while still remaining open source. It is flexible and allows you to distribute or sell modified versions as long as you fulfill one of various conditions. Look at section 4 in the full text for a better explanation.'
     categories: ['public', 'software', 'perl']
@@ -122,7 +122,7 @@ LicenseDefinitions =
   'gpl-2+':
     name: 'GNU General Public License 2 or later (GPL-2.0)'
     priority: 10
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/GPL-2.0'
     description: 'You may copy, distribute and modify the software as long as you track changes/dates of in source files and keep all modifications under GPL. You can distribute your application using a GPL library commercially, but you must also disclose the source code.'
     categories: ['public', 'software', 'gpl', 'copyleft', 'strong']
@@ -158,7 +158,7 @@ LicenseDefinitions =
   'agpl-3':
     name: 'Affero General Public License 3 (AGPL-3.0)'
     priority: 51
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/AGPL-3.0'
     description: 'The AGPL license differs from the other GNU licenses in that it was built for network software. You can distribute modified versions if you keep track of the changes and the date you made them. As per usual with GNU licenses, you must license derivatives under AGPL. It provides the same restrictions and freedoms as the GPLv3 but with an additional clause which makes it so that source code must be distributed along with web publication. Since web sites and services are never distributed in the traditional sense, the AGPL is the GPL of the web.'
     categories: ['public', 'software', 'agpl', 'copyleft', 'strong']
@@ -167,7 +167,7 @@ LicenseDefinitions =
   'mpl-2':
     name: 'Mozilla Public License 2.0'
     priority: 1
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/MPL-2.0'
     description: 'This is a lenient license used by the Mozilla Corporation that allows you a variety of explicit freedoms with the software so long as you keep modifications under this license and distribute the original source code alongside executables. It is a good midway license; it isn’t very strict and has only straightforward requirements.'
     categories: ['public', 'software', 'copyleft', 'weak']
@@ -176,7 +176,7 @@ LicenseDefinitions =
   'lgpl-2.1+':
     name: 'GNU Library or "Lesser" General Public License 2.1 or later (LGPL-2.1)'
     priority: 2
-    available: true
+    available: false 
     url: 'http://opensource.org/licenses/LGPL-2.1'
     description: 'You may copy, distribute and modify the software provided that modifications are described inside the modified files and licensed for free under LGPL-2.1. Derivatives or non-separate (statically-linked) works of the software must be licensed under LGPL, but separate, parent projects don\'t have to be.'
     categories: ['public', 'software', 'copyleft', 'weak']
@@ -194,7 +194,7 @@ LicenseDefinitions =
   'lgpl-3':
     name: 'GNU Library or "Lesser" General Public License 3.0 (LGPL-3.0)'
     priority: 3
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/LGPL-3.0'
     description: 'You may copy, distribute and modify the software provided that modifications are described inside the modified files and licensed for free under LGPL-2.1.  Derivatives or non-separate (statically-linked) works of the software must be licensed under LGPL, but separate, parent projects don\'t have to be. LGPL 3 tries to close some loopholes in LGPL 2.1.'
     categories: ['public', 'software', 'copyleft', 'weak']
@@ -203,7 +203,7 @@ LicenseDefinitions =
   'epl-1':
     name: 'Eclipse Public License 1.0 (EPL-1.0)'
     priority: 4
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/EPL-1.0'
     description: 'This license, made and used by the Eclipse Foundation, isn’t all too stringent and gives both copyright and explicit patent rights. Check the full text of the license to see how liability is accorded.'
     categories: ['public', 'software', 'copyleft', 'weak']
@@ -212,7 +212,7 @@ LicenseDefinitions =
   'cddl-1':
     name: 'Common Development and Distribution License (CDDL-1.0)'
     priority: 5
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/CDDL-1.0'
     description: 'This is a very permissive and popular license made by Sun Microsystems that also includes explicit patent grants. It is relatively simplistic in its conditions, requiring only a small amount of documentation for redistribution (applying to source as well as modified code).'
     categories: ['public', 'software', 'copyleft', 'weak']
@@ -230,7 +230,7 @@ LicenseDefinitions =
   'bsd-3c':
     name: 'The BSD 3-Clause "New" or "Revised" License (BSD)'
     priority: 2
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/BSD-3-Clause'
     description: 'The BSD 3-clause license allows you almost unlimited freedom with the software so long as you include the BSD copyright notice in it. "Use trademark" in this case means you cannot use the names of the original company or its members to endorse derived products.'
     categories: ['public', 'software', 'permissive']
@@ -239,7 +239,7 @@ LicenseDefinitions =
   'bsd-2c':
     name: 'The BSD 2-Clause "Simplified" or "FreeBSD" License'
     priority: 3
-    available: true
+    available: false
     url: 'http://opensource.org/licenses/BSD-2-Clause'
     description: 'The BSD 2-clause license allows you almost unlimited freedom with the software so long as you include the BSD copyright notice in it.'
     categories: ['public', 'software', 'permissive']
